@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+name = ironyman
+email = ironyman@users.noreply.github.com
+
+
+[includeIf "gitdir:~/work/"]
+    path = ~/.gitconfig-work
+
