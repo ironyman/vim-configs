@@ -63,5 +63,8 @@ noremap <leader>f :Rg<CR>
 :help sneak
 s ch1 ch2
 ; or \
-``
+
+echo something | vim -
+
+```
 
