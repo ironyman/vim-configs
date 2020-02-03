@@ -11,7 +11,7 @@ filetype plugin indent on  " try to recognize filetypes and load rel' plugins
 set visualbell " visual bell for errors
 
 " text appearance
-set textwidth=80
+" set textwidth=80
 set nowrap                          " nowrap by default
 
 " Show whitespace, to disable :set list!
