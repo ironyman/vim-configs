@@ -13,8 +13,11 @@ set visualbell " visual bell for errors
 " text appearance
 set textwidth=80
 set nowrap                          " nowrap by default
+
+" Show whitespace, to disable :set list!
 set list                            " show invisible characters
 set listchars=tab:»·,trail:·,nbsp:· " Display extra whitespace
+
 set sts=4 sw=4 ts=4 et
 
 call plug#begin('~/.vim/plugged')
