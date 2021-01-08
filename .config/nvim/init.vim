@@ -11,13 +11,10 @@ filetype plugin indent on  " try to recognize filetypes and load rel' plugins
 set visualbell " visual bell for errors
 
 " text appearance
-" set textwidth=80
+"set textwidth=80
 set nowrap                          " nowrap by default
-
-" Show whitespace, to disable :set list!
-set list                            " show invisible characters
-set listchars=tab:»·,trail:·,nbsp:· " Display extra whitespace
-
+"set list                            " show invisible characters
+"set listchars=tab:»·,trail:·,nbsp:· " Display extra whitespace
 set sts=4 sw=4 ts=4 et
 
 call plug#begin('~/.vim/plugged')
@@ -37,7 +34,7 @@ call plug#end()
 
 let g:airline#extensions#tabline#enabled = 1
 
-runtime coc.vim
+" runtime coc.vim
 runtime vista.vim
 runtime fzf.vim
 runtime securemode.vim
